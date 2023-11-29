@@ -7,34 +7,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Portfolio Web Daniel</title>
 </head>
-<body class="container-fluid mx-auto">
+<body class="container-fluid-md mx-auto">
     <header >
-        <nav >
-            <ul class="nav nav-tabs p-2">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experiences">Work Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills & Expertise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#samples">Work Samples</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacts">Contacts</a>
-                </li>
-                
-            </ul>
+        <nav class="container-fluid-md navbar navbar-expand-md fixed-top" style="background-color: white;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="text-align: center;" id="navbarNav">
+                <ul class="navbar-nav d-flex flex p-3 mb-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills & Expertise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#samples">Work Samples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>  
         </nav>
     </header>
     <main>
-        <div id="home" class="hidden">
+        <div id="home" class="hidden ">
             <img src="./assets/Home.jpg" alt="">
         </div>
         <div id="about" class="hidden">
@@ -53,14 +57,14 @@
             <img src="./assets/6.jpg" alt="">
         </div>
     </main>
-    <footer id="contacts" >
+    <footer id="contacts" class="container-fluid-md">
         <div class="hidden">
             <img src="./assets/Contact.jpg" alt="">
-            <div class="container-fluid d-flex flex-justify-between text-black ">
-                <a class="container-fluid d-flex flex-justify-between fs-4 text-black" href="https://github.com/Dcassis" target="_blank"><i class="bi bi-github" style="text-align: center; color:var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large;">Git Hub</a></label>
-                <a class="container-fluid d-flex flex-justify-between fs-4 text-black" href="https://wa.me/5579999333944" target="_blank" rel='noopener noreferrer'><i class="bi bi-whatsapp" style="text-align: center; color:var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large;">whatsapp</a></label>
-                <a class="container-fluid d-flex flex-justify-between fs-4 text-black" href="https://www.linkedin.com/in/daniel-carvalho-de-assis-89556884/" target="_blank" rel='noopener noreferrer'><i class="bi bi-linkedin"  style="text-align: center; color:var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large">Linkedin</a></label>
-                <a class="container-fluid d-flex flex-justify-between fs-4 text-black" href="mailto:dc.assis@yahoo.com.br" target="_blank" rel='noopener noreferrer'><i class="bi bi-envelope-at-fill" style="text-align: center; color: var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large">E-mail</a></label>
+            <div class="container-fluid-md d-flex flex-justify-between text-black ">
+                <a class="container-fluid socialMedia d-flex text-black flex-justify-between" href="https://github.com/Dcassis" target="_blank"><i class="bi bi-github" style="text-align: center; color:var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large;">Git Hub</a></label>
+                <a class="container-fluid socialMedia d-flex text-black flex-justify-between" href="https://wa.me/5579999333944" target="_blank" rel='noopener noreferrer'><i class="bi bi-whatsapp" style="text-align: center; color:var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large;">whatsapp</a></label>
+                <a class="container-fluid socialMedia d-flex text-black flex-justify-between" href="https://www.linkedin.com/in/daniel-carvalho-de-assis-89556884/" target="_blank" rel='noopener noreferrer'><i class="bi bi-linkedin"  style="text-align: center; color:var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large">Linkedin</a></label>
+                <a class="container-fluid socialMedia d-flex text-black flex-justify-between" href="mailto:dc.assis@yahoo.com.br" target="_blank" rel='noopener noreferrer'><i class="bi bi-envelope-at-fill" style="text-align: center; color: var(--color-principal)"></i><label style="text-align: center; align-self: center; padding: .5rem; color:var(--color-principal);font-size: large">E-mail</a></label>
             </div>
         </div>
     </div>
