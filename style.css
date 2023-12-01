@@ -15,9 +15,12 @@ header nav{
     color: var(--color-principal);
 }
 
-.nav-link:hover{
+li:hover{
     text-decoration: none;
     color: var(--color-principal);
+    background-color: rgb(130, 134, 136) ;
+    border-radius: 7%;
+    transition: 1s;
 }
 
 div {
@@ -36,22 +39,27 @@ img{
 
 .hidden {
     opacity: 0;
-    filter: blur(70px);
+    filter: blur(100px);
     transform: translateZ(100%);
-    transition: width 3s, height 4s
+    transition: width .7s, height .7s
   }
   
   .show{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-    transition: 2.5s;
+    transition: .7s;
   }
 
-  .socialMedia{
-    text-decoration: none;
+  .logos{
+    width: 30%;
+    border-radius: 30%;
+    padding: 1rem;
   }
-  .socialMedia label:hover{
-    text-decoration: none;
-    cursor: pointer;
+
+  #copyright{
+    text-align: center;
+    font-size: smaller;
+    align-self: center; 
+    padding: 2%;
   }
