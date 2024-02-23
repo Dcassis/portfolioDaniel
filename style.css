@@ -52,11 +52,17 @@ img{
   }
 
   .logos{
-    width: 30%;
+    width: 5rem;
     border-radius: 30%;
     padding: 1rem;
   }
+ 
+  label{
+    display: flex;
+    align-item: center;
+   text-align: justify-between;
 
+}
   #copyright{
     text-align: center;
     font-size: smaller;
